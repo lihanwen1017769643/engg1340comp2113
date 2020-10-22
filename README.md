@@ -4,7 +4,7 @@
 * Ji Zeping
 ## Game Description
 ### Game Topic:
-Monopoly
+Monopoly Update
 ### Game Rules:
 #### Game Settings
 * property
@@ -26,6 +26,7 @@ The winning requirement will be randomly assigned and it will be printed when th
 If one player has no *property*, then the game immediately ends. The player with the greatest value of *property* wins the game.
 * One will win if he/she is the first one who finishes 15 turns of the map .
 * One will win if he/she is the first one who constructs a house of the highest level on one of his *lands*.
+* One will win if he/she is the first one who possesses all land in one side of game board
 
 ## Features
 * Generation of random game sets or events
