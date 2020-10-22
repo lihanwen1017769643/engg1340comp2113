@@ -8,16 +8,16 @@ Monopoly
 ### Game Rules:
 #### Game Settings
 * property
-  The money that a player possesses is called *property*.
+> The money that a player possesses is called *property*.
 * land
-  There are altogether 23 nations in the map, which is called *land*. Every piece of *land* has its own value, which means that players are able to buy different *land* of different costs.
-  Once a player moves onto a *land* that does not belong to anyone, one can choose to buy this *land* or not. On the other hand, once a player moves onto a *land* that does belong to someone, one has to pay some money to the owner of this *land*.
+> There are altogether 23 nations in the map, which is called *land*. Every piece of *land* has its own value, which means that players are able to buy different *land* of different costs.
+> Once a player moves onto a *land* that does not belong to anyone, one can choose to buy this *land* or not. On the other hand, once a player moves onto a *land* that does belong to someone, one has to pay some money to the owner of this *land*.
 * special land
-  There are altogether 4 *special lands* in the map. When a player goes onto a *special land*, one will be randomly assigned to a task.
+> There are altogether 4 *special lands* in the map. When a player goes onto a *special land*, one will be randomly assigned to a task.
 
 * house
-  There are three levels of *house* that can be built on every *land*, which consists of level-1, level-2, level-3.
-  A *house* can only be constructed by the player if the player owns the *land*. As long as the owner of a *land* passes onto the *land*, he/she can choose to build a higher level *house* on the land. If it is the second time for the player to go onto the *land*, he can only choose to build a level-1 *house*.
+> There are three levels of *house* that can be built on every *land*, which consists of level-1, level-2, level-3.
+> A *house* can only be constructed by the player if the player owns the *land*. As long as the owner of a *land* passes onto the *land*, he/she can choose to build a higher level *house* on the land. If it is the second time for the player to go onto the *land*, he can only choose to build a level-1 *house*.
 #### Game Beginning
 There are four players and every one of them is assigned to a given amount of *property* to start the game.
 
