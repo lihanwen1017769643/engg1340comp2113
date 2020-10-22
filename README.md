@@ -4,7 +4,7 @@
 * Ji Zeping
 ## Game Description
 ### Game Topic:
-Monopoly Update
+> Monopoly Update
 ### Game Rules:
 #### Game Settings
 * property
@@ -19,18 +19,18 @@ Monopoly Update
 > There are three levels of *house* that can be built on every *land*, which consists of level-1, level-2, level-3.
 > A *house* can only be constructed by the player if the player owns the *land*. As long as the owner of a *land* passes onto the *land*, he/she can choose to build a higher level *house* on the land. If it is the second time for the player to go onto the *land*, he can only choose to build a level-1 *house*.
 #### Game Beginning
-There are four players and every one of them is assigned to a given amount of *property* to start the game.
-
+> There are four players and every one of them is assigned to a given amount of *property* to start the game. All players are placed at the starting point.
+> Four players start from the starting point and roll the dice in order.
 ### Winning Requirements
 The winning requirement will be randomly assigned and it will be printed when the game starts. There will always be one winning requirement in one whole game every time.
-If one player has no *property*, then the game immediately ends. The player with the greatest value of *property* wins the game.
+**If one player has no *property*, then the game immediately ends. The player with the greatest value of *property* wins the game.**
 * One will win if he/she is the first one who finishes 15 turns of the map .
 * One will win if he/she is the first one who constructs a house of the highest level on one of his *lands*.
 * One will win if he/she is the first one who possesses all land in one side of game board
 
 ## Features
 * Generation of random game sets or events
-
+> In this game, there are many **_random_** elements. These include aspects regarding random distance travelled each time by each player, random tasks when passing onto *special lands* and even random winning requirements every time, which makes the game more interesting.
 * Data structures for storing game status
 
 * Dynamic memory management
@@ -38,3 +38,5 @@ If one player has no *property*, then the game immediately ends. The player with
 * File input/output
 
 * Program codes in multiple files
+> We will include multiple types of files, including ".cpp", ".h", ".txt" files.
+> 
