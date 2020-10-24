@@ -20,13 +20,13 @@ Monopoly-updated version
 * corner land
 > There are four corner lands on the gameboard. Each has some special function as listed below (in clockwise order from lower right one):
    - Go
-     In the beginning, every player will be placed on Go and thet can receive certain amount of *property* every time they pass Go.
+     > In the beginning, every player will be placed on Go and thet can receive certain amount of *property* every time they pass Go.
    - jail
-     When a player lands on the jail, he/she will be trapped for three rounds. Nevertheless, each round he/she can choose either paying fine or attempting to roll doubles to escape jail.
+     > When a player lands on the jail, he/she will be trapped for three rounds. Nevertheless, each round he/she can choose either paying fine or attempting to roll doubles to escape jail.
    - Temporary Double
-     Every time when the player lands on the "Temporary Double", he/she can choose one of his/her own lands so that the other players need to pay the double fine if they pass      that land in the next 3 rounds. Notice that this effect is additive, which means you can double the same land multiple times. 
+     > Every time when the player lands on the "Temporary Double", he/she can choose one of his/her own lands so that the other players need to pay the double fine if they pass      that land in the next 3 rounds. Notice that this effect is additive, which means you can double the same land multiple times. 
    - worm-hole
-     When a player lands on the worm-hole, he/she can choose to move towards to any land in the next round. Note that if he/she pass through Go land, he/she can still receive the corresponding *property*.
+     > When a player lands on the worm-hole, he/she can choose to move towards to any land in the next round. Note that if he/she pass through Go land, he/she can still receive the corresponding *property*.
 
 #### Game Flow
 There are four players. In the beginning, every one is assigned to a given amount of *property*. Also, the numbers 1,2,3,4 will be assigned to four cards a,b,c,d. Each player need to choose a card and this will be the order. On a player's turn, he/she must roll the 2 dices and move forward according to the number on the dices. The player should follow the instruction above when he/she lands on some land. Moreover, there's a possibility that the player will roll the double. In that circumstance, he/she should roll the dices again to take one extra turn after resolving the events occurred in current turn.
