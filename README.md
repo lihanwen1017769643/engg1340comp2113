@@ -50,8 +50,8 @@ One winning criterion is fixed: the player wins if the others are driven into *b
   >Each round the player need to indicate a integer between 1 to 10. The bigger the integer is, the more likely he/she will get large dots. The ouput will be the result of rolling ramdomly generated with modified possibility. On a player's turn, he/she need responds to the prompt, e.g., if the land is not owned by anyone, the program will prompt "Purchase?(Yes/No)" and the player need to input "Yes" or "No" to indicate the choice.
    Each round the gameboard will be output with the current situation of lands ownership and the amount of property of each player.
 * Program codes in multiple files
- > For the rolling the dices process: one file will be served as the code for rolling() function.
- >For the purchasing lands & paying rent process: one file for the purchase() and paying() function, one for the data of information of each land
- >For the special lands & corner lands: one file each for the different function corresponding to the different tasks and corner lands' function, respectively.
- > For game status: one file for storing the status of the most recent game.
- >In the main() function file:  code for asking the player if he/she want to continue the last game. code for the order decide in the beginning of the game, code for checking whether the game is ended, 
+  - For the rolling the dices process: one file will be served as the code for rolling() function.
+  - For the purchasing lands & paying rent process: one file for the purchase() and paying() function, one for the data of information of each land
+  - For the special lands & corner lands: one file each for the different function corresponding to the different tasks and corner lands' function, respectively.
+   - For game status: one file for storing the status of the most recent game.
+   - In the main() function file:  code for asking the player if he/she want to continue the last game. code for the order decide in the beginning of the game, code for checking whether the game is ended, 
