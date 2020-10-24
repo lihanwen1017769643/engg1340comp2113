@@ -19,13 +19,13 @@ Monopoly-updated version
 > There are 2 *special lands* in the map. When a player goes onto a *special land*, one will be randomly assigned to a task.
 * corner land
 > There are four corner lands on the gameboard. Each has some special function as listed below (in clockwise order from lower right one):
-  - Go
+   - Go
      In the beginning, every player will be placed on Go and thet can receive certain amount of *property* every time they pass Go.
-  - jail
+   - jail
      When a player lands on the jail, he/she will be trapped for three rounds. Nevertheless, each round he/she can choose either paying fine or attempting to roll doubles to escape jail.
-  - Temporary Double
-     Every time when the player lands on the "Temporary Double", he/she can choose one of his/her own lands so that the other players need to pay the double fine if they pass that land in the next 3 rounds. Notice that this effect is additive, which means you can double the same land multiple times. 
-  - worm-hole
+   - Temporary Double
+     Every time when the player lands on the "Temporary Double", he/she can choose one of his/her own lands so that the other players need to pay the double fine if they pass      that land in the next 3 rounds. Notice that this effect is additive, which means you can double the same land multiple times. 
+   - worm-hole
      When a player lands on the worm-hole, he/she can choose to move towards to any land in the next round. Note that if he/she pass through Go land, he/she can still receive the corresponding *property*.
 
 #### Game Flow
