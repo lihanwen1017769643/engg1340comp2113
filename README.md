@@ -22,11 +22,11 @@ Monopoly-updated version
   - Go
      In the beginning, every player will be placed on Go and thet can receive certain amount of *property* every time they pass Go.
   - jail
-   When a player lands on the jail, he/she will be trapped for three rounds. Nevertheless, each round he/she can choose either paying fine or attempting to roll doubles to escape jail.
+     When a player lands on the jail, he/she will be trapped for three rounds. Nevertheless, each round he/she can choose either paying fine or attempting to roll doubles to escape jail.
   - Temporary Double
-   Every time when the player lands on the "Temporary Double", he/she can choose one of his/her own lands so that the other players need to pay the double fine if they pass that land in the next 3 rounds. Notice that this effect is additive, which means you can double the same land multiple times. 
+     Every time when the player lands on the "Temporary Double", he/she can choose one of his/her own lands so that the other players need to pay the double fine if they pass that land in the next 3 rounds. Notice that this effect is additive, which means you can double the same land multiple times. 
   - worm-hole
-    When a player lands on the worm-hole, he/she can choose to move towards to any land in the next round. Note that if he/she pass through Go land, he/she can still receive the corresponding *property*.
+     When a player lands on the worm-hole, he/she can choose to move towards to any land in the next round. Note that if he/she pass through Go land, he/she can still receive the corresponding *property*.
 
 #### Game Flow
 There are four players. In the beginning, every one is assigned to a given amount of *property*. Also, the numbers 1,2,3,4 will be assigned to four cards a,b,c,d. Each player need to choose a card and this will be the order. On a player's turn, he/she must roll the 2 dices and move forward according to the number on the dices. The player should follow the instruction above when he/she lands on some land. Moreover, there's a possibility that the player will roll the double. In that circumstance, he/she should roll the dices again to take one extra turn after resolving the events occurred in current turn.
@@ -41,17 +41,23 @@ One winning criterion is fixed: the player wins if the others are driven into *b
 
 ## Features
 * Generation of random game sets or events
-  >The positions of lands except the special and corner lands are randomly generated per game. Also, the result of rolling the dices is ramdom though the possibility will be modified based on the players' input as mentioned in input/output part below. Moreover, whether the player has a double rolling is ramdomly decided per rolling. When the player lands on the special lands, the task assigned to him/her is also ramdomly selected.
+  - Apart from the normal winning criteria, the extra one will be generated at the beginning of the game.
+  - The positions of lands except the special and corner lands are randomly generated per game. 
+  - The result of rolling the dices is ramdom though the possibility will be modified based on the players' input as mentioned in input/output part below.
+  - Whether the player has a double rolling is ramdomly decided per rolling. 
+  - When the player lands on the special lands, the task assigned to him/her is also ramdomly selected.
 * Data structures for storing game status
-  >The data structure for our game will be queues.  The programme moves to the other player's round only if the current one is finished. Each corresponding command is enqueued in order and then processed in order.
+  >The data structure for our game will be queues. The programme moves to the other player's round only if the current one is finished. Each corresponding command is enqueued in order and then processed in order.
 * Dynamic memory management
-  >A 4-3 array and a 22-3 array will be used to store the game status. The 4-4 array consists of four int[4] values, one for each player and the data stored are the current amount of property, his/her order and the mobility in the current round. The 22-3 array is served for storing the information of the 23 normal lands, including owner, level of house and the status of double. 
+  >A 4-3 array and a 22-3 array will be used to store the game status. The 4-4 array consists of four int[4] values, one for each player and the data stored are the current amount of property, his/her order, the mobility in the current round and the status of double rolling. The 22-3 array is served for storing the information of the 23 normal lands, including owner, level of house and the status of double. 
 * File input/output
   >Each round the player need to indicate a integer between 1 to 10. The bigger the integer is, the more likely he/she will get large dots. The ouput will be the result of rolling ramdomly generated with modified possibility. On a player's turn, he/she need responds to the prompt, e.g., if the land is not owned by anyone, the program will prompt "Purchase?(Yes/No)" and the player need to input "Yes" or "No" to indicate the choice.
    Each round the gameboard will be output with the current situation of lands ownership and the amount of property of each player.
 * Program codes in multiple files
+   
   - For the rolling the dices process: one file will be served as the code for rolling() function.
   - For the purchasing lands & paying rent process: one file for the purchase() and paying() function, one for the data of information of each land
   - For the special lands & corner lands: one file each for the different function corresponding to the different tasks and corner lands' function, respectively.
-   - For game status: one file for storing the status of the most recent game.
-   - In the main() function file:  code for asking the player if he/she want to continue the last game. code for the order decide in the beginning of the game, code for checking whether the game is ended, 
+  - For the winning criteria: one file for the 1 extra (ramdomly selected) +1 basic winnning requirement.
+  - For game status: one file for storing the status of the most recent game.
+  - In the main() function file:  code for asking the player if he/she want to continue the last game. code for the order decided in the beginning of the game, code for checking whether the game is ended.
