@@ -10,13 +10,13 @@ Monopoly-updated version
 * property
 > The money that a player possesses is called *property*.
 * land
-> There are altogether 22 nations in the map, which is called *land*. Every piece of *land* has its own value, which means that players need to pay different amout of property to buy different *land*.
+> There are altogether 20 places in the map, which is called *land*. Every piece of *land* has its own value, which means that players need to pay different amout of property to buy different *land*.
 > Once a player moves onto a *land* that does not belong to anyone, one can choose to buy this *land* or not. On the other hand, once a player moves onto a *land* that does belong to someone, one has to pay some money as rent to the owner of this *land*.
 * house
 > There are three levels of *house* that can be built on every *land*, which consists of level-1, level-2, level-3.
 > A *house* can only be constructed by the player if the player has owned the *land*, i.e. he/she has to pass through the *land* at least twice to buy a *house*. As long as the owner of a *land* passes onto the *land*, he/she can choose to build a higher level *house* on the land. But more construction fee is needed for higher level *house*. If it is the second time for the player to go onto the *land*, he can only choose to build a level-1 *house*. When the other player lands on this land with house, he/she needs to pay more rent. 
 * special land
-> There are 2 *special lands* in the map. When a player goes onto a *special land*, one will be randomly assigned to a task.
+> There are 4 *special lands* in the map. When a player goes onto a *special land*, one will be randomly assigned to a task.
 * corner land
 > There are four corner lands on the gameboard. Each has some special function as listed below (in clockwise order from lower right one):
    - Go
