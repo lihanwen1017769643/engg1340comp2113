@@ -48,14 +48,15 @@ One winning criterion is fixed: the player wins if he/she has the most property 
 * Data structures for storing game status
   >We define the structure *player* and *land* to store the information of the 
 * Dynamic memory management
-> We use new and delete to use dynamic memory management.
-> A array of four players and another array of 28 lands will be used to store the game status.
+  >A 4-9 array and a 28-6 array will be used to store the game status. The 4-9 array consists of four variable of type Player, one for each player and the data stored are the name, the current loop no., mobility, current amount of property, his/her order and the information of the land he/she owns. The 28-6 array is served for storing the information of the 28 lands, including owner, level of house, type and the price. 
 * File input/output
-> On a player's turn, he/she need responds to the prompt, e.g., if the land is not owned by anyone, the program will prompt "Purchase?(Yes/No)" and the player need to input "Yes" or "No" to indicate the choice.
-> Each round the current situation of lands ownership and the amount of property of each player will be output .
+    On a player's turn, he/she need responds to the prompt, e.g., if the land is not owned by anyone, the program will prompt "Purchase?(Yes/No)" and the player need to input "Yes" or "No" to indicate the choice.
+   Each round the current situation of lands ownership and the amount of property of each player will be output .
 * Program codes in multiple files
    
   - For the rolling the dices process: one file will be served as the code for roll() function.
   - For the purchasing lands & paying rent process: one file for the land_manip() function.
   - For game status: file "data.txt" for storing the status of the most recent game.
-  - In the main() function file:  code for asking the player if he/she want to continue the last game. code for the order decided in the beginning of the game, code for checking whether the game is ended.
+  - In the main() function file:  code for asking the player if he/she want to continue the last game. code for checking whether the game is ended.
+ * Non-standard library used
+    >We used the #include <unistd.h> library and function usleep() to hold the program so as to simulate several types of process, e.g., rolling the dice, moving, drawing the chance card.
