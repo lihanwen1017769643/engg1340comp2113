@@ -22,7 +22,7 @@ Monopoly-updated version
    - Start
      > In the beginning, every player will be placed on Start and thet can receive certain amount of *property* every time they pass Start.
    - Jail
-     > When a player lands on the jail, he/she will be trapped for one round. Nevertheless, each round he/she can choose either paying fine or attempting to roll doubles to escape jail.
+     > When a player lands on the jail, he/she will be trapped for one round. 
    - Temporary Double
      > Every time when the player lands on the "Temporary Double", he/she can roll the dice once more.
    - Worm-Hole
