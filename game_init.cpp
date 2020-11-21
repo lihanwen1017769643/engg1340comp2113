@@ -57,7 +57,6 @@ void game_init(Player players[], Land lands[], int& win_condition) {
     int temp1;
     for(int i = 0; i < chance_land_num; ++i) {
         temp1 = rand() % 28;
-
         while(temp1 == 0 || temp1 == 7 || temp1 == 14 || temp1 == 21 || is_in(temp1, chance_land_numset, i)){
              temp1 = rand() % 28;
         }
@@ -90,8 +89,8 @@ void game_init(Player players[], Land lands[], int& win_condition) {
         else {
             lands[i].type = "Normal";
             lands[i].name = land_name[index++];
-            //set land price, from 10 to 20
             
+            //set land price, from 10 to 20
             lands[i].price = 10 + rand() % 11;
         }
     }
