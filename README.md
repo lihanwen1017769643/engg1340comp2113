@@ -46,7 +46,7 @@ One winning criterion is fixed: the player wins if he/she has the most property 
   - Whether the player has a double rolling is ramdomly decided per rolling. 
   - When the player lands on the chance lands, the task assigned to him/her is also ramdomly selected.
 * Data structures for storing game status
-  >We define the structure *player* and *land* to store the information of the 
+  >We define the structure *Player* and *Land* to store the various information of the players and lands, respectively. We then use an array of entry with type Player and Land to facilitate the storing.
 * Dynamic memory management
   >A 4-9 array and a 28-6 array will be used to store the game status. The 4-9 array consists of four variable of type Player, one for each player and the data stored are the name, the current loop no., mobility, current amount of property, his/her order and the information of the land he/she owns. The 28-6 array is served for storing the information of the 28 lands, including owner, level of house, type and the price. 
 * File input/output
@@ -54,9 +54,11 @@ One winning criterion is fixed: the player wins if he/she has the most property 
    Each round the current situation of lands ownership and the amount of property of each player will be output .
 * Program codes in multiple files
    
+  - For initialize the game: file game_init.cpp serves as the code for initializing the game.
   - For the rolling the dices process: one file will be served as the code for roll() function.
+  - For moving forward: one file will be served as the code for move() function.
   - For the purchasing lands & paying rent process: one file for the land_manip() function.
   - For game status: file "data.txt" for storing the status of the most recent game.
-  - In the main() function file:  code for asking the player if he/she want to continue the last game. code for checking whether the game is ended.
+  - File monopoly.cpp contains our main() function: code for asking the player if he/she want to continue the last game. code for checking whether the game is ended and the         winner.
  * Non-standard library used
     >We used the #include <unistd.h> library and function usleep() to hold the program so as to simulate several types of process, e.g., rolling the dice, moving, drawing the chance card.
