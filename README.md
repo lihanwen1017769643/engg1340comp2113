@@ -10,7 +10,7 @@ Monopoly-updated version
 * property
 > The money that a player possesses is called *property*.
 * land
-> There are altogether 20 places in the map, which is called *land*. Every piece of *land* has its own value, which means that players need to pay different amout of property to buy different *land*.
+> There are altogether 28 places in the map, which is called *land*. Every piece of *land* has its own value, which means that players need to pay different amout of property to buy different *land*.
 > Once a player moves onto a *land* that does not belong to anyone, one can choose to buy this *land* or not. On the other hand, once a player moves onto a *land* that does belong to someone, one has to pay some money as rent to the owner of this *land*.
 * house
 > There are three levels of *house* that can be built on every *land*, which consists of level-1, level-2, level-3.
@@ -21,15 +21,15 @@ Monopoly-updated version
 > There are four special lands on the gameboard. Each has some special function as listed below (in clockwise order from lower right one):
    - Start
      > In the beginning, every player will be placed on Start and thet can receive certain amount of *property* every time they pass Go.
-   - jail
+   - Jail
      > When a player lands on the jail, he/she will be trapped for three rounds. Nevertheless, each round he/she can choose either paying fine or attempting to roll doubles to escape jail.
    - Temporary Double
-     > Every time when the player lands on the "Temporary Double", he/she can choose one of his/her own lands so that the other players need to pay the double fine if they pass      that land in the next 3 rounds. Notice that this effect is additive, which means you can double the same land multiple times. 
-   - worm-hole
+     > Every time when the player lands on the "Temporary Double", he/she can roll the dice once more.
+   - Worm-Hole
      > When a player lands on the worm-hole, he/she can choose to move towards to any land in the next round. Note that if he/she pass through Go land, he/she can still receive the corresponding *property*.
 
 #### Game Flow
-There are four players. In the beginning, every one is assigned to a given amount of *property*. Also, the numbers 1,2,3,4 will be assigned to four cards a,b,c,d. Each player need to choose a card and this will be the order. On a player's turn, he/she must roll the 2 dices and move forward according to the number on the dices. The player should follow the instruction above when he/she lands on some land. Moreover, there's a possibility that the player will roll the double. In that circumstance, he/she should roll the dices again to take one extra turn after resolving the events occurred in current turn.
+There are four players. In the beginning, every one is assigned to a given amount of *property*. On a player's turn, he/she must roll the 2 dices and move forward according to the number on the dices. The player should follow the instruction above when he/she lands on some land. Moreover, there's a possibility that the player will roll the double. In that circumstance, he/she should roll the dices again to take one extra turn after resolving the events occurred in current turn.
 
 The game will end if one of criteria below is met.    
 
