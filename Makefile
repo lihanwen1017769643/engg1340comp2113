@@ -22,5 +22,5 @@ monopoly.o: monopoly.cpp player.h land.h show_choice.h save.h load.h game_init.h
 monopoly: monopoly.o player.o land.o show_choice.o save.o load.o game_init.o roll.o move.o land_manip.o
 	g++ $(FLAGS) $^ -o $@
 clean:
-	rm -f monopoly monopoly.o player.o land.o show_choice.o save.o load.o game_init.o move.o land_manip.o
+	rm -f monopoly monopoly.o player.o land.o show_choice.o save.o load.o game_init.o roll.o move.o land_manip.o
 .PHONY: clean
