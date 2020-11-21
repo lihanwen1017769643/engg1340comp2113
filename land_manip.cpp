@@ -128,6 +128,7 @@ void land_manip(Player * players, Land * lands, int turn, string& choice, int& r
                         }
                         (players[turn].house_level[*hl])++;
                         //(players[turn].house_level[hl])++;
+                        delete hl;
 
                         cout << "You have successfully upgrade your house! ";
                         cout << "The level is now " << lands[players[turn].pos].house_level << "." << endl;
