@@ -125,6 +125,7 @@ int main()
         else {
             roll(r1, r2, rs);                       //roll dice
             move(players, rs, turn);                //player move
+            cout << "moving..." << endl;
             usleep(2000000);    //wait 2 seconds to moving the rolling process
             cout << endl;
             lands[players[turn].pos].show_info();  //show the land information
