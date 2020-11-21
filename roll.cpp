@@ -29,5 +29,5 @@ void roll(int &r1, int &r2, int &rs){
 
   rs = r1 + r2;
 
-  cout << "You move forward " << rs << " steps" << endl;
+  cout << "You move forward " << rs << " steps." << endl;
 }
